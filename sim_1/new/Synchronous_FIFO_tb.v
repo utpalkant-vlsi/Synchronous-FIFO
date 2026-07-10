@@ -1,17 +1,19 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Utpal Kant
 // 
 // Create Date: 03.04.2026 14:49:10
-// Design Name: 
+// Design Name: Synchronous FIFO
 // Module Name: SYNC_FIFO_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Project Name: Synchronous_FIFO_Design
+// Target Devices: Basys3 FPGA
+// Tool Versions:Vivado 2024.2 
+// Description: Testbench to verify the functionality of a parameterized 
+//              Synchronous FIFO, testing sequential read/write, overflow, 
+//              and underflow conditions.
 // 
-// Dependencies: 
+// Dependencies: SYNC_FIFO.v
 // 
 // Revision:
 // Revision 0.01 - File Created
